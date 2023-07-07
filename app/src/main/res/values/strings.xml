@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">HeiseP6</string>
+    <string name="no_name">No Name</string>
+    <string name="aluminum_cans">Aluminum cans and foil</string>
+    <string name="chip_bags">Bags from chips or snacks</string>
+    <string name="candy_wrappers">Candy wrappers</string>
+    <string name="cardboard">Cardboard</string>
+    <string name="cardboard_with_food">Cardboard or paper containing food</string>
+    <string name="copy_paper">Copy paper</string>
+    <string name="coffee_cups">Disposable coffee cups</string>
+    <string name="food_wrappers">Food wrappers</string>
+    <string name="full_bottles">Full or partially full plastic bottles</string>
+    <string name="glass_bottles">Glass bottles or jars</string>
+    <string name="coffee_lids">Lids from coffee cups</string>
+    <string name="milk_jugs">Milk jugs</string>
+    <string name="newspapers">Newspapers</string>
+    <string name="paper">Paper</string>
+    <string name="envelopes">Paper Envelopes</string>
+    <string name="plastic">Plastic</string>
+    <string name="plastic_bottles">Plastic bottles</string>
+    <string name="shopping_bags">Plastic shopping bags</string>
+    <string name="styrofoam_containers">Styrofoam containers</string>
+    <string name="tin_or_steel">Tin or steel cans</string>
+    <string name="welcome_message">CNM’s overarching Sustainability goal is to reduce waste,
+        water use, energy use, and carbon emissions while educating the CNM community about
+        sustainable practices.</string>
+    <string name="app_instructions">Click the recycle icon in the navigation menu below to learn
+        more about recycling, or click on the house with a water droplet to learn more about water
+        conservation.</string>
+    <string name="recyclables_welcome">Single-stream recycling is an all-in-one recycling method
+        where materials can be combined into one single bin. CNM has blue single-stream recycling
+        bins located next to the trash cans in most classrooms and large green cardboard recycling
+        bins have been placed in common areas across all campuses.</string>
+    <string name="recyclables_instructions">Click the button below to see a list of trash items.
+        Try and guess if the item is recyclable or not. Then click on the item to see if
+        you were right.</string>
+    <string name="water_welcome">It\'s no secret that one way we can all help the environment is by
+        conserving the amount of water we use everyday. The first step to reducing our water usage
+        is understanding how much water everyday activities use.</string>
+    <string name="water_instructions">Click the button below to view a calculator that will show you
+        how many gallons of water different faucets in your home use per minute.</string>
+    <string name="check_knowledge">Check Your Recyclables Knowledge</string>
+    <string name="all_done">All Done</string>
+    <string name="home">Home</string>
+    <string name="recycling">Recycling</string>
+    <string name="yes">Yes!</string>
+    <string name="can_go">Can go in the recycle bins!</string>
+    <string name="no">No!</string>
+    <string name="cannot_go">Can NOT go in the recycle bins!</string>
+    <string name="back">Back</string>
+    <string name="yes_or_no">Yes or No</string>
+    <string name="item_description_here">Item Description Here</string>
+    <string name="answer_goes_here">Answer Goes Here</string>
+    <string name="water_use">Water Use</string>
+    <string name="see_how_much_water_you_use">See How Much Water You Use</string>
+    <string name="zero">0</string>
+    <string name="gallons_of_water_per_minute">Gallons of Water Per Minute</string>
+    <string name="gallons_of_water_used">Gallons of Water Used</string>
+    <string name="bath_sink_faucet">Bath Sink Faucet (1 gal/min)</string>
+    <string name="kitchen_sink_faucet">Kitchen Sink Faucet (1.5 gal/min)</string>
+    <string name="shower_head">Shower Head (2 gal/min)</string>
+    <string name="minutes">Minutes:</string>
+</resources>

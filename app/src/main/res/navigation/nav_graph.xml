@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.cis2237.heisep6.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/recyclingFragment"
+        android:name="com.cis2237.heisep6.RecyclingFragment"
+        android:label="fragment_recycling"
+        tools:layout="@layout/fragment_recycling" >
+        <action
+            android:id="@+id/navigateToTrashListFragment"
+            app:destination="@id/trashListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trashListFragment"
+        android:name="com.cis2237.heisep6.TrashListFragment"
+        android:label="TrashListFragment" >
+        <action
+            android:id="@+id/navigateToRecyclableFragment"
+            app:destination="@id/recyclableFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclableFragment"
+        android:name="com.cis2237.heisep6.RecyclableFragment"
+        android:label="fragment_is_recyclable"
+        tools:layout="@layout/fragment_recyclable" >
+        <argument
+            android:name="position"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/waterSavingFragment"
+        android:name="com.cis2237.heisep6.WaterSavingFragment"
+        android:label="WaterSavingFragment" >
+        <action
+            android:id="@+id/navigateToWaterCalcFragment"
+            app:destination="@id/waterCalcFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/waterCalcFragment"
+        android:name="com.cis2237.heisep6.WaterCalcFragment"
+        android:label="fragment_water_calc"
+        tools:layout="@layout/fragment_water_calc" />
+</navigation>
