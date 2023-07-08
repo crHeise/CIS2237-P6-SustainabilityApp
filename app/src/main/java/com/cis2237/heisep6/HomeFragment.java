@@ -1,8 +1,13 @@
 /*
- * Programmer: Chris Heise
- * Email: cheise3@cnm.edu
- * Course: CIS 2237-A02
+ * Programmer: Chris Heise (crheise@icloud.com)
+ * School: Central New Mexico Community College
+ * Course: CIS 2237 Android Programming I
+ * Instructor: Ivonne Nelson
+ * Date: 23 November 2021
+ *
  * Program: P6 Sustainability App
+ * Purpose: Use Java and a VMC pattern to create
+ *          an app about sustainability.
  * File: HomeFragment.java
  */
 
